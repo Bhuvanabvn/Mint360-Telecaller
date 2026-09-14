@@ -9,7 +9,7 @@ module.exports = defineConfig({
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
     baseURL: 'https://qa.mint360.in',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
