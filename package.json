@@ -1,0 +1,14 @@
+{
+  "name": "mint360-automation",
+  "version": "1.0.0",
+  "description": "Playwright POM automation for Mint360 QA - Login & Create Lead flow",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1"
+  }
+}
